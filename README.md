@@ -97,7 +97,7 @@ Below are the test cases for each endpoint:
           "catchPhrase": "Switchable contextually-based project",
           "bs": "aggregate real-time technologies"
         }
-      }
+     }
      ```
 
 2. **Get Post by ID**
@@ -111,7 +111,7 @@ Below are the test cases for each endpoint:
         "id": 100,
         "title": "at nam consequatur ea labore ea harum",
         "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
-      }
+     }
      ```
 
 3. **Delete User by ID**
@@ -130,30 +130,30 @@ Below are the test cases for each endpoint:
    - Response Code: `201 Created`
    - Response Body
      ```json
-       {
-         "name": "Jalu Potter",
-         "username": "JalPot",
-         "email": "jalupotter@bri.co.id",
-         "address": {
-           "street": "Kulas Light",
-           "suite": "Apt. 556",
-           "city": "Gwenborough",
-           "zipcode": "92998-3874",
-           "geo": {
-             "lat": "-37.3159",
-             "lng": "81.1496"
-           }
-         },
-         "phone": "1-770-736-8031 x56442",
-         "website": "hildegard.org",
-         "company": {
-           "name": "Romaguera-Crona",
-           "catchPhrase": "Multi-layered client-server neural-net",
-           "bs": "harness real-time e-markets"
-         },
-         "id": 11
-       }
-    ```
+      {
+      "name": "Jalu Potter",
+      "username": "JalPot",
+      "email": "jalupotter@bri.co.id",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      },
+      "id": 11
+     }
+     ```
 
 6. **Create Post**
    - Send a POST request to `https://jsonplaceholder.typicode.com/posts` with the provided post data.
@@ -166,5 +166,5 @@ Below are the test cases for each endpoint:
         "body": "In the quaint village of Mistwood, young Jalu discovers he is a descendant of a legendary wizarding lineage and must embark on a perilous journey to retrieve the Enchanted Wand before it falls into the hands of dark forces threatening to plunge the magical realm into chaos.",
         "userId": 10,
         "id": 101
-      }
+     }
      ```
