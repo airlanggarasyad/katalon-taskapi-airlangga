@@ -1,6 +1,10 @@
-# API Testing Documentation
+# JSONPlaceholder API Testing
 
 This document provides instructions and guidelines for testing the JSONPlaceholder API using various HTTP methods such as GET, DELETE, and POST.
+
+## Testing Tools
+
+All test cases are conducted using Katalon Studio.
 
 ## Endpoints
 
@@ -164,7 +168,3 @@ Below are the test cases for each endpoint:
         "id": 101
       }
      ```
-
-## Testing Tools
-
-All test cases are conducted using Katalon Studio.
