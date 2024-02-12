@@ -18,6 +18,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject("Object Repository/GET/GET User Details"))
+def response = WS.sendRequest(findTestObject("Object Repository/POST/POST Create a Resource"))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, 201)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET User Details</name>
+   <name>DELETE Post</name>
    <tag></tag>
-   <elementGuidId>6ad08ade-fbde-49ea-a778-2e1a207124dc</elementGuidId>
+   <elementGuidId>fe610abf-0cbb-4c2d-b747-416e82788614</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -15,8 +15,8 @@
    <katalonVersion>9.2.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/users/4</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/posts/100</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -25,13 +25,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>4</defaultValue>
-      <description></description>
-      <id>071466ec-f6c2-4fea-9bd3-ae095dd16efe</id>
-      <masked>false</masked>
-      <name>ID</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

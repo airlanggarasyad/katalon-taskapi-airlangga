@@ -7,6 +7,7 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/airlanggafidiyanto/Katalon Studio/coba-testing-api/coba-testing-api.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

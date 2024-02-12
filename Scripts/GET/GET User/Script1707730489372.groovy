@@ -20,4 +20,4 @@ import org.openqa.selenium.Keys as Keys
 
 def response = WS.sendRequest(findTestObject("Object Repository/GET/GET List of Users"))
 
-WS.verifyElementText(response, "[0].name", "Leanne Graham")
+WS.verifyResponseStatusCode(response, 200)

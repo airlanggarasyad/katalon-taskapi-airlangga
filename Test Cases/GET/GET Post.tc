@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GET User Details</name>
+   <name>GET Post</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4bd7a0a1-2c71-484c-b6ee-c95f78bc9b34</testCaseGuid>

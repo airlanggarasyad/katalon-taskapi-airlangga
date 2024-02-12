@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Fetch users</description>
-   <name>GET List of Users</name>
+   <description></description>
+   <name>POST Create a Resource</name>
    <tag></tag>
-   <elementGuidId>faad01dc-8075-4e10-858c-4fb3c5c64942</elementGuidId>
+   <elementGuidId>b1d72767-3988-4b48-8590-3938568f0d8f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;title\&quot;: \&quot;Jalu Potter\&quot;,\n  \&quot;body\&quot;: \&quot;In the quaint village of Mistwood, young Jalu discovers he is a descendant of a legendary wizarding lineage and must embark on a perilous journey to retrieve the Enchanted Wand before it falls into the hands of dark forces threatening to plunge the magical realm into chaos.\&quot;,\n  \&quot;userId\&quot;: 10\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-type</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json; charset=UTF-8</value>
-      <webElementGuid>85db5033-f41e-4852-bd4e-a42301455f59</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>de28a0e3-446a-4b7b-a1dd-39f06bbee70c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.2.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/users/9</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/posts</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
